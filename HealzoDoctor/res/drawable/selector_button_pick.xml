@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+     xmlns:android="http://schemas.android.com/apk/res/android">     
+     <!--  Active tab -->
+     <item
+          android:state_selected="true"
+          android:state_focused="false"
+          android:state_pressed="false"
+          
+          >
+  		<shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#D95fc328" />
+			<padding android:left="3dp" android:right="3dp" android:top="3dp" android:bottom="3dp"/>
+            <corners android:radius="5dp" />
+        </shape>
+     </item>
+     <!--  Inactive tab -->
+     <item
+          android:state_selected="false"
+          android:state_focused="false"
+          android:state_pressed="false"
+          >
+		<shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#D95fc328" />
+			<padding android:left="3dp" android:right="3dp" android:top="3dp" android:bottom="3dp"/>
+            <corners android:radius="5dp" />
+        </shape>
+     </item>
+     <!--  Pressed tab -->
+     <item
+          android:state_pressed="true"
+          
+           >
+		<shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#D9359301" />
+<padding android:left="3dp" android:right="3dp" android:top="3dp" android:bottom="3dp"/>
+            <corners android:radius="5dp" />
+        </shape>
+     </item>
+
+</selector>

@@ -1,0 +1,38 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#383735"
+     >
+<TextView android:id="@+id/frag_header_driver"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="15dp"
+    android:layout_marginBottom="15dp"
+    android:text="SETTINGS"
+    android:textColor="#ffffff"
+    android:textSize="20sp"
+    android:gravity="center"
+    android:textStyle="bold"
+    />
+    <View
+        android:layout_below="@id/frag_header_driver"
+        android:id="@+id/frag_view_driver"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#fcca00" />
+    <ListView
+        android:layout_below="@id/frag_view_driver"
+        android:id="@+id/frag_list_driver"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:divider="#626669"
+        android:dividerHeight="2dp"
+         />
+    <View
+        android:layout_below="@id/frag_list_driver"
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:background="#626669" />
+</RelativeLayout>

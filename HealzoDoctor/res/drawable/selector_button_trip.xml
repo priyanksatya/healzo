@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Active tab -->
+    <item android:state_focused="false" android:state_pressed="false" android:state_selected="true"><shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#f74210" />
+
+            <padding android:bottom="3dp" android:left="3dp" android:right="3dp" android:top="3dp" />
+
+            <corners android:radius="5dp" />
+        </shape></item>
+    <!-- Inactive tab -->
+    <item android:state_focused="false" android:state_pressed="false" android:state_selected="false"><shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#f74210" />
+
+            <padding android:bottom="3dp" android:left="3dp" android:right="3dp" android:top="3dp" />
+
+            <corners android:radius="5dp" />
+        </shape></item>
+    <!-- Pressed tab -->
+    <item android:state_pressed="true"><shape xmlns:android="http://schemas.android.com/apk/res/android">
+            <solid android:color="#C52B00" />
+
+            <padding android:bottom="3dp" android:left="3dp" android:right="3dp" android:top="3dp" />
+
+            <corners android:radius="5dp" />
+        </shape></item>
+
+</selector>
